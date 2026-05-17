@@ -1,0 +1,10 @@
+{
+  "ok": true,
+  "intents": [
+    {"key": "docker.containers.list", "label": "Zeige laufende Docker-Container"},
+    {"key": "docker.container.start", "label": "Starte Docker-Container {container}"},
+    {"key": "docker.container.stop", "label": "Stoppe Docker-Container {container}"},
+    {"key": "docker.system.prune", "label": "Bereinige ungenutzte Docker-Ressourcen"},
+    {"key": "docker.config.inspect", "label": "Zeige Docker-Konfiguration"}
+  ]
+}

@@ -1,0 +1,17 @@
+[Unit]
+Description=Joormann Media Jarvis Docker Lab
+After=network-online.target docker.service
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=djanebmb
+WorkingDirectory=/home/djanebmb/projects/Joormann-Media-Jarvis-Docker-Lab
+Environment=PYTHONUNBUFFERED=1
+ExecStart=/home/djanebmb/projects/Joormann-Media-Jarvis-Docker-Lab/scripts/start.sh
+ExecStop=/home/djanebmb/projects/Joormann-Media-Jarvis-Docker-Lab/scripts/stop.sh
+Restart=on-failure
+RestartSec=3
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,10 @@
+{
+  "lab_name": "Joormann-Media-Jarvis-Docker-Lab",
+  "portal_url": "",
+  "machine_id": "",
+  "node_slug": "jarvis-docker-lab",
+  "client_id": "",
+  "api_key": "",
+  "docker_timeout": 20,
+  "updated_at": 0
+}

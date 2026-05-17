@@ -1,0 +1,23 @@
+{
+  "service": "Joormann-Media-Jarvis-Docker-Lab",
+  "description": "Docker-Verwaltung für Container, Ressourcen, Mounts, Cleanup und Daemon-Config.",
+  "capabilities": [
+    "docker.status",
+    "docker.containers",
+    "docker.system",
+    "docker.cleanup",
+    "docker.config",
+    "portal.sync",
+    "mcp"
+  ],
+  "mcp_actions": [
+    "docker_status",
+    "docker_list_containers",
+    "docker_start_container",
+    "docker_stop_container",
+    "docker_restart_container",
+    "docker_prune_system",
+    "docker_inspect_container",
+    "docker_daemon_config_get"
+  ]
+}
